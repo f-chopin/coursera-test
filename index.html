@@ -3,20 +3,99 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hello Heaven!</title>
+
+<style>
+
+
+h1 {
+	color: blue;
+	width: 200px;
+	text-align: center;
+	opacity: .6;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: gray;
+	border:1px solid navy;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: navy;
+	color: white;
+}
+
+section div:nth-child(odd) {
+	background-color: #89cff0;
+}
+
+footer {
+	color: gray;
+}
+
+
+
+
+</style>
+
 </head>
 <body>
-<h1> It's alive! </h1>
+<h1 id"top"> It's alive! </h1>
 <h2> And kicking. </h2>
 <h3> All the time. </h3>
+
+<div class="menu"> 
+
+	<a href="#top"> Top </a>
+	<a href="#bottom"> Bottom </a>
+
+</div>
+
 Body text. Tested on the local server.
+
+<section>
+	<div>One</div>
+	<div>Two</div>
+	<div>Three</div>
+	<div>Four</div>
+	<div>Five</div>
+	<div>Six</div>
+	<div>Seven</div>
+	<div>Eight</div>
+</section>
+
+<div id="main_list">
 
 <ol>
 	<li>One</li>
 	<li>Two</li>
+	<li>Three</li>
+	<li>Four</li>
+	<li>Five</li>
+	<li>Six</li>
+	<li>Seven</li>
+	<li>Eight</li>
+	
 </ol>
+</div>
+
+<div>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
 
 <div>&lt; &gt; &amp;</div>
-<footer> &copy; Corp. </footer>
+<footer id="bottom"> &copy; Corp. </footer>
+
 
 </body>
 </html>
